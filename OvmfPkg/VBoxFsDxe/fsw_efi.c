@@ -62,7 +62,7 @@
 #endif
 #define DEBUG_VBFS 0
 CHAR8 *msgCursor;
-MESSAGE_LOG_PROTOCOL *Msg = NULL; 
+//MESSAGE_LOG_PROTOCOL *Msg = NULL; 
 
 #if DEBUG_VBFS==2
 #define DBG(...)  AsciiPrint(__VA_ARGS__)

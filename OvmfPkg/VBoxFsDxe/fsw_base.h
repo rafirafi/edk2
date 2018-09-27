@@ -58,7 +58,7 @@
 #include "VBoxFswParam.h"
 #endif
 
-#include <Protocol/MsgLog.h> 
+//#include <Protocol/MsgLog.h> 
 
 #ifndef FSW_DEBUG_LEVEL
 /**

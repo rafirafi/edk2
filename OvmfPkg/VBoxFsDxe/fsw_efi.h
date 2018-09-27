@@ -55,7 +55,7 @@
 #include "fsw_core.h"
 
 extern CHAR8     *msgCursor;
-extern MESSAGE_LOG_PROTOCOL *Msg;
+//extern MESSAGE_LOG_PROTOCOL *Msg;
 
 /**
  * EFI Host: Private per-volume structure.

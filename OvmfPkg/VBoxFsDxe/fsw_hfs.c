@@ -27,7 +27,7 @@
 
 #include "fsw_hfs.h"
 
-#include <Library/MemLogLib.h>
+//#include <Library/MemLogLib.h>
 #include <Library/PrintLib.h>
 
 
@@ -566,11 +566,11 @@ fsw_hfs_btree_search (struct fsw_hfs_btree *btree,
 
   for (;;) { //node cycle
     fsw_s32 cmp = 0;
-    int match;
+    //int match;
     fsw_u32 count;
     BTreeKey *currkey;
 
-    match = 0;
+    //match = 0;
     /* Read a node */
     if ((fsw_u32)fsw_hfs_read_file(btree->file,
                                    MultU64x32(currnode, btree->node_size),
