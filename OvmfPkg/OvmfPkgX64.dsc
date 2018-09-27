@@ -790,7 +790,8 @@
   #
   # Apple HFS+ Support
   #
-  OvmfPkg/FswHfsPlus/FswHfsPlus.inf
+  #OvmfPkg/FswHfsPlus/FswHfsPlus.inf
+  OvmfPkg/VBoxFsDxe/VBoxHfs.inf
   IntelFrameworkModulePkg/Universal/DataHubDxe/DataHubDxe.inf
 
   #
